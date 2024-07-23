@@ -29,4 +29,7 @@ export class Chatting extends Document {
   chat: string;
 }
 
+
+
+
 export const ChattingSchema = SchemaFactory.createForClass(Chatting);
